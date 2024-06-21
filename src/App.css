@@ -1,0 +1,77 @@
+.outerBox{
+  background-color: rgb(206, 208, 211);
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 35rem;
+}
+.YourToDo{
+  font-size: 25px;
+}
+.AddToDoBtn{
+  margin-left: 20px;
+  padding: 7px;
+  background-color: rgb(81, 84, 87);
+  
+  border: 1px solid rgb(81, 84, 87);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.AddToDoBtn:hover{
+  margin-left: 20px;
+  padding: 7px;
+  background-color: white;
+  color: rgb(81, 84, 87);
+  border: 1px solid rgb(81, 84, 87);
+  transition: 2s;
+  margin-bottom: 20px;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.btns{
+  margin-top: 15px;
+}
+#todoItem{
+  margin-top: 15px;
+}
+#checkbox{
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.inputAdd{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 35px;
+  border-radius: 10px;
+}
+.moreAdd{
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.moreAdd:hover{
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.noToDo{
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
